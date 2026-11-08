@@ -6,7 +6,7 @@ export function Marquee({ items, className = "" }: { items: string[]; className?
     <div className="marquee-track" aria-hidden={hidden || undefined}>
       {items.map((it, i) => (
         <Fragment key={i}>
-          <span className="whitespace-nowrap font-display text-[clamp(1.6rem,1rem+1.4vw,3rem)] font-semibold tracking-tight">{it}</span>
+          <span className="whitespace-nowrap font-display text-[clamp(1.4rem,.8rem,.5rem)] font-semibold tracking-tight">{it}</span>
           <span className={`self-center text-2xl ${i % 2 ? "text-cold" : "text-hot"}`} aria-hidden="true">
             ✻
           </span>

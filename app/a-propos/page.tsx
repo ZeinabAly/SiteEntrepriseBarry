@@ -34,7 +34,7 @@ export default function AboutPage() {
         <Container className="relative grid items-center gap-12 py-12 lg:grid-cols-[1.3fr_1fr] lg:gap-20 lg:py-20">
           <div>
             <PipePair draw className="mb-9" />
-            <h1 className="text-[clamp(2.1rem,1.25rem+3vw,3.4rem)]">
+            <h1 className="big-title">
               <Words text="À propos d’Entreprise Barry" />
             </h1>
             <p className="hero-rise mt-6 max-w-xl text-lg text-ink-soft" style={after(0.9)}>
@@ -55,7 +55,7 @@ export default function AboutPage() {
       <section className="bg-white py-20 lg:py-28">
         <Container className="grid gap-12 lg:grid-cols-[1fr_2fr] lg:gap-20">
           <Reveal>
-            <h2 className="text-[clamp(1.7rem,1.2rem+1.6vw,2.4rem)]">Notre façon de travailler</h2>
+            <h2 className="title-second">Notre façon de travailler</h2>
           </Reveal>
           <ul className="grid gap-10 sm:grid-cols-3">
             {approach.map((a, i) => (
@@ -71,7 +71,7 @@ export default function AboutPage() {
       <section className="py-20 lg:py-28">
         <Container>
           <Reveal>
-            <h2 className="text-[clamp(1.7rem,1.2rem+1.6vw,2.4rem)]">Nos métiers</h2>
+            <h2 className="title-second">Nos métiers</h2>
           </Reveal>
           <ul className="mt-10 grid gap-x-12 md:grid-cols-2">
             {services.map((s, i) => (

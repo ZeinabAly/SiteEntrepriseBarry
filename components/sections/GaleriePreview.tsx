@@ -13,13 +13,14 @@ export function GaleriePreview() {
         <Reveal className="flex flex-wrap items-end justify-between gap-6">
           <div>
             <p className="eyebrow">Sur le terrain</p>
-            <h2 className="mt-4 text-[clamp(2rem,1.2rem+2.6vw,3.4rem)] font-bold tracking-[-0.03em]">Quelques réalisations</h2>
-            <p className="mt-4 max-w-xl text-ink-soft">Des photos de nos interventions, prises sur le terrain.</p>
+            <h2 className="title-second mt-4 font-bold tracking-[-0.03em]">Quelques réalisations</h2>
+            <p className="mt-4 max-w-xl text-ink-soft text-[1rem]">Des photos de nos interventions, prises sur le terrain.</p>
           </div>
           <ButtonLink href="/realisations" variant="secondary">
             Voir toutes les réalisations
           </ButtonLink>
         </Reveal>
+        
       </Container>
 
       <div className="strip mt-12 overflow-x-auto px-5 sm:px-8 mx-5 cursor-grab">

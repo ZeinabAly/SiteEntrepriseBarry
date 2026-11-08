@@ -12,10 +12,10 @@ export function Zone() {
       <Container className="grid items-center gap-14 lg:grid-cols-[1.1fr_1fr] lg:gap-20">
         <Reveal>
           <p className="eyebrow">Zone d’intervention</p>
-          <h2 className="mt-4 text-[clamp(2.4rem,1.4rem+3.8vw,4.6rem)] font-bold leading-[0.95] tracking-[-0.04em]">
+          <h2 className="title-second mt-4 font-bold leading-[0.95] tracking-[-0.04em]">
             Montpellier <span className="text-thermal">et alentours</span>
           </h2>
-          <p className="mt-6 max-w-lg text-ink-soft">
+          <p className="mt-6 max-w-lg text-ink-soft text-[1rem]">
             Vous n’êtes pas sûr que nous intervenions chez vous ? Appelez-nous ou indiquez votre commune dans le formulaire de contact, nous vous répondrons.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">

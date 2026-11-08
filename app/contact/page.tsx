@@ -24,7 +24,7 @@ export default function ContactPage() {
       <Container className="relative grid gap-12 lg:grid-cols-[1fr_1.35fr] lg:gap-20">
         <div>
           <PipePair draw className="mb-9" />
-          <h1 className="text-[clamp(2.1rem,1.25rem+3vw,3.4rem)]">
+          <h1 className="big-title">
             <Words text="Contact et demande de devis" />
           </h1>
           <p className="hero-rise mt-6 max-w-md text-lg text-ink-soft" style={after(0.9)}>

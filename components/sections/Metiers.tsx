@@ -21,10 +21,10 @@ export function Metiers() {
         className="mb-16 border-y border-line py-5 text-ink lg:mb-24"
       />
       <Container>
-        <Reveal className="flex flex-wrap items-end justify-between gap-6">
+        <Reveal className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <p className="eyebrow">Nos métiers</p>
-            <h2 className="mt-4 max-w-2xl text-[clamp(2rem,1.2rem+2.6vw,3.4rem)] font-bold tracking-[-0.03em]">
+            <h2 className="title-second mt-4 max-w-2xl font-bold tracking-[-0.03em]">
               Quatre métiers, <span className="text-thermal">un seul interlocuteur</span>
             </h2>
           </div>
@@ -45,10 +45,10 @@ export function Metiers() {
                 className="trade-card group flex min-h-[27rem] flex-col rounded-[1.5rem] border border-line bg-paper p-6"
               >
                
-                <span className={`trade-strong mt-3 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-sm transition-transform duration-500 group-hover:-rotate-12 group-hover:scale-110`}>
+                <span className={`trade-strong mt-3 inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-white shadow-sm transition-transform duration-500 group-hover:-rotate-12 group-hover:scale-110`}>
                   <Icon size={26} aria-hidden="true" className={`${text}`} />
                 </span>
-                <h3 className="trade-strong mt-6 text-[1.9rem] font-bold">{s.name}</h3>
+                <h3 className="trade-strong mt-6 text-[1.6rem] font-bold">{s.name}</h3>
                 <p className="trade-dim mt-2 text-[0.95rem] text-ink-soft">{s.summary}</p>
                 <ul className="mt-5 flex-1 text-[0.92rem]">
                   {s.highlights.slice(0, 3).map((h) => (

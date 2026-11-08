@@ -17,7 +17,7 @@ export function Interventions() {
       <Container className="relative grid gap-14 lg:grid-cols-[1fr_1.6fr] lg:gap-20">
         <Reveal className="lg:sticky lg:top-32 lg:self-start">
           <PipePair reveal className="mb-8 max-w-[5rem]" />
-          <h2 className="text-[clamp(2rem,1.2rem+2.6vw,3.4rem)] font-bold tracking-[-0.03em] text-white">
+          <h2 className="title-second font-bold tracking-[-0.03em] text-white">
             Ce que nous faisons <span className="outline-text text-white/90">pour vous</span>
           </h2>
           <p className="mt-5 max-w-sm text-white/70">Quatre types d’interventions, dans chacun de nos métiers.</p>
@@ -26,7 +26,7 @@ export function Interventions() {
           {rows.map((r, i) => (
             <Reveal as="li" key={r.title} delay={i * 110} className="group border-t border-white/15 last:border-b">
               <div className="relative grid gap-3 py-8 sm:grid-cols-[4.5rem_1fr] sm:gap-6">
-                <span className="font-display text-5xl font-bold leading-none text-white transition-colors duration-500 group-hover:text-hot">
+                <span className="font-display text-4xl font-bold leading-none text-white transition-colors duration-500 group-hover:text-hot">
                   0{i + 1}
                 </span>
                 <div>

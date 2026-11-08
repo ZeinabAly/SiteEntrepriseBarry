@@ -3,7 +3,11 @@ import Image from "next/image";
 type Props = { tone?: "dark" | "light"; compact?: boolean; priority?: boolean };
 
 /** Logo d'Entreprise Barry (flamme et flocon) suivi du nom de l'entreprise. */
-export function Logo({ tone = "dark", compact = false, priority = false }: Props) {
+export function Logo({
+  tone = "dark",
+  compact = false,
+  priority = false,
+}: Props) {
   return (
     <span className="inline-flex items-center gap-3">
       <Image
@@ -16,12 +20,13 @@ export function Logo({ tone = "dark", compact = false, priority = false }: Props
       />
 
       <span className="flex flex-col leading-tight">
-        <span className={`font-display font-bold tracking-wide text-base text-${tone}`}>
-          ENTREPRISE{" "}
-          <span className="text-hot-deep">BARRY</span>
+        <span
+          className={`font-display font-bold tracking-wide text-base text-${tone}`}
+        >
+          ENTREPRISE <span className="text-hot-deep">BARRY</span>
         </span>
         <span className="mt-0.5 font-medium tracking-wide text-muted text-[0.68rem]">
-          Notre expertise, votre confort
+          Notre expertise, fort
         </span>
       </span>
     </span>

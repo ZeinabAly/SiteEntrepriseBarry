@@ -13,12 +13,12 @@ export function CtaFinal() {
           <div aria-hidden="true" className="float-slow pointer-events-none absolute -bottom-28 -right-20 h-96 w-96 rounded-full bg-cold/40 blur-3xl [animation-delay:-3s]" />
           <div className="relative">
             <p className="eyebrow text-white/70">Devis gratuit</p>
-            <h2 className="mt-4 max-w-2xl text-[clamp(2rem,1.2rem+2.6vw,3.4rem)] font-bold tracking-[-0.03em] text-white">Parlez-nous de votre projet</h2>
-            <p className="mt-4 max-w-lg text-white/75">Décrivez votre besoin, nous vous répondons avec un devis gratuit.</p>
+            <h2 className="title-second mt-4 max-w-2xl font-bold tracking-[-0.03em] text-white">Parlez-nous de votre projet</h2>
+            <p className="mt-4 max-w-lg text-white/75 text-[1rem]">Décrivez votre besoin, nous vous répondons avec un devis gratuit.</p>
 
             <a
               href={site.phone.href}
-              className="group mt-10 inline-flex items-center gap-4 font-display text-[clamp(1.2rem,1rem+5vw,3.5rem)] font-bold leading-none tracking-[-0.04em]"
+              className="group mt-10 inline-flex items-center gap-4 font-display text-[clamp(1.2rem,1rem+2.5vw,3.5rem)] font-bold leading-none tracking-[-0.04em]"
             >
               <span className="text-thermal text-thermal-anim">{site.phone.display}</span>
               <span className="inline-flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white text-ink transition-transform duration-500 group-hover:rotate-45">

@@ -50,6 +50,13 @@ h3 {
   border-radius: 4px;
 }
 
+h1.big-title{
+  font-size: clamp(2rem,2.2rem + 1.8vw,3rem);
+}
+h2.title-second{
+  font-size: clamp(1.8rem,1.2rem + 1.8vw,3rem);
+}
+
 /*
  * Signature de la marque : deux conduites parallèles, l'une chaude (départ),
  * l'autre froide (retour), comme sur les canalisations d'un chantier.
@@ -442,20 +449,20 @@ body::before {
 @layer components {
 .eyebrow {
   display: inline-flex;
-  align-items: center;
+  flex-direction: column;
   gap: 0.6rem;
   font-family: var(--font-sans);
-  font-size: 0.78rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--color-ink-soft);
 }
-.eyebrow::before {
+.eyebrow::after {
   content: "";
-  width: 1.6rem;
+  width: 2rem;
   height: 2px;
-  background: linear-gradient(90deg, var(--color-hot) 50%, var(--color-cold) 50%);
+  background: var(--color-ink);
 }
 
 }
@@ -492,6 +499,7 @@ body::before {
     linear-gradient(to bottom, color-mix(in oklab, var(--color-ink) 7%, transparent) 1px, transparent 1px);
   background-size: 64px 64px;
   mask-image: radial-gradient(ellipse at 50% 30%, #000 20%, transparent 75%);
+  background: white;
 }
 
 /* Cadran du thermostat */

@@ -18,7 +18,7 @@ export default function MentionsLegalesPage() {
     <section className="py-12 lg:py-20">
       <Container>
         <PipePair className="mb-9" />
-        <h1 className="text-[clamp(2.1rem,1.25rem+3vw,3.4rem)]">Mentions légales</h1>
+        <h1 className="big-title">Mentions légales</h1>
         <div className="prose-legal mt-6">
           <p>
             Les présentes mentions légales précisent les informations relatives à l'éditeur du site Entreprise Barry, conformément à la réglementation en vigueur.

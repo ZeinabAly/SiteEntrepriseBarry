@@ -47,7 +47,7 @@ export default async function ServicePage({ params }: Props) {
         <Container className={`relative grid gap-12 py-12 lg:py-20 ${s.cover ? "lg:grid-cols-[1.3fr_1fr] lg:items-center lg:gap-20" : ""}`}>
           <div>
             <PipePair draw className="mb-9" />
-            <h1 className="text-[clamp(2.1rem,1.25rem+3vw,3.4rem)]">
+            <h1 className="big-title">
               <Words text={s.heading} />
             </h1>
             <p className="hero-rise mt-6 max-w-xl text-lg text-ink-soft" style={after(0.9)}>
@@ -81,14 +81,14 @@ export default async function ServicePage({ params }: Props) {
       <section className="bg-white py-20 lg:py-28">
         <Container>
           <Reveal>
-            <h2 className="text-[clamp(1.7rem,1.2rem+1.6vw,2.4rem)]">Prestations de {name}</h2>
+            <h2 className="title-second">Prestations de {name}</h2>
           </Reveal>
           <ul className="mt-10 grid gap-x-12 md:grid-cols-2">
             {s.prestations.map((p, i) => (
               <Reveal as="li" key={p.title} delay={(i % 2) * 90 + Math.floor(i / 2) * 50} className="border-t border-line">
                 <div className="-mx-3 rounded-md px-3 py-4 transition-colors duration-300 hover:bg-paper">
                   <span className="font-semibold">{p.title}</span>
-                  {p.detail && <span className="block text-ink-soft">{p.detail}</span>}
+                  {p.detail && <span className="block text-ink-soft text-[1rem]">{p.detail}</span>}
                 </div>
               </Reveal>
             ))}
@@ -100,7 +100,7 @@ export default async function ServicePage({ params }: Props) {
         <section className="py-20 lg:py-28">
           <Container>
             <Reveal>
-              <h2 className="text-[clamp(1.7rem,1.2rem+1.6vw,2.4rem)]">Réalisations en {name}</h2>
+              <h2 className="title-second">Réalisations en {name}</h2>
             </Reveal>
             <div className="mt-10">
               <PhotoColumns items={photos} />
@@ -112,14 +112,14 @@ export default async function ServicePage({ params }: Props) {
       <section className={`${photos.length > 0 ? "bg-white" : ""} py-16 lg:py-20`}>
         <Container>
           <Reveal>
-            <h2 className="text-2xl">Nos autres services</h2>
+            <h3 className="titre-third text-2xl">Nos autres services</h3>
           </Reveal>
           <ul className="mt-6 grid gap-x-12 md:grid-cols-3">
             {others.map((o, i) => (
               <Reveal as="li" key={o.slug} delay={i * 100} className="border-t border-line">
                 <Link href={`/services/${o.slug}`} className="-mx-3 block rounded-md px-3 py-4 transition-colors duration-300 hover:bg-paper hover:text-hot-deep">
                   <span className="font-display text-xl font-semibold">{o.name}</span>
-                  <span className="mt-1 block text-[0.95rem] text-ink-soft">{o.summary}</span>
+                  <span className="mt-1 block text-[1rem] text-ink-soft">{o.summary}</span>
                 </Link>
               </Reveal>
             ))}

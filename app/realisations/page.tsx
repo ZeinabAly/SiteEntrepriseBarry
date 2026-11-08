@@ -22,7 +22,7 @@ export default function RealisationsPage() {
         <div className="ambient" aria-hidden="true" />
         <Container className="relative py-12 lg:py-20">
           <PipePair draw className="mb-9" />
-          <h1 className="text-[clamp(2.1rem,1.25rem+3vw,3.4rem)]">
+          <h1 className="big-title">
             <Words text="Réalisations" />
           </h1>
           <p className="hero-rise mt-6 max-w-xl text-lg text-ink-soft" style={after(0.6)}>

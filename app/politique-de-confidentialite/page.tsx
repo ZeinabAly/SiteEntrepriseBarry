@@ -18,7 +18,7 @@ export default function PrivacyPage() {
     <section className="py-12 lg:py-20">
       <Container>
         <PipePair className="mb-9" />
-        <h1 className="text-[clamp(2.1rem,1.25rem+3vw,3.4rem)]">Politique de confidentialité</h1>
+        <h1 className="big-title">Politique de confidentialité</h1>
         <div className="prose-legal mt-6">
           <p>
             Cette page décrit les données personnelles collectées par ce site et la manière dont elles sont utilisées, conformément au règlement général sur la protection des données (RGPD). 
