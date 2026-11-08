@@ -44,11 +44,8 @@ export function Metiers() {
                 style={{ "--tone": tone } as React.CSSProperties}
                 className="trade-card group flex min-h-[27rem] flex-col rounded-[1.5rem] border border-line bg-paper p-6"
               >
-                <div className="flex items-start justify-between">
-                  <span className={`trade-strong font-display text-xl font-bold tabular-nums ${text}`}>0{i + 1}</span>
-                  {/* <span className="trade-dim rounded-full border border-line px-3 py-1 text-xs font-semibold text-ink-soft">{reading}</span> */}
-                </div>
-                <span className={`trade-strong mt-10 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-sm transition-transform duration-500 group-hover:-rotate-12 group-hover:scale-110`}>
+               
+                <span className={`trade-strong mt-3 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white shadow-sm transition-transform duration-500 group-hover:-rotate-12 group-hover:scale-110`}>
                   <Icon size={26} aria-hidden="true" className={`${text}`} />
                 </span>
                 <h3 className="trade-strong mt-6 text-[1.9rem] font-bold">{s.name}</h3>

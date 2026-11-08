@@ -88,19 +88,19 @@ export function ContactForm() {
   return (
     <form onSubmit={onSubmit} noValidate className="grid gap-5 rounded-[1.5rem] border border-line bg-white p-6 shadow-[0_30px_60px_-40px_rgba(15,35,66,0.4)] sm:p-10">
       <div>
-        <label htmlFor="name" className={label}>Nom et prénom</label>
+        <label htmlFor="name" className={label}>Nom et prénom <span className="text-red-600">*</span></label>
         <input id="name" name="name" autoComplete="name" className={field} {...aria("name")} />
         {errMsg("name")}
       </div>
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="phone" className={label}>Téléphone</label>
+          <label htmlFor="phone" className={label}>Téléphone <span className="text-red-600">*</span></label>
           <input id="phone" name="phone" type="tel" inputMode="tel" autoComplete="tel" placeholder="06 12 34 56 78" className={field} {...aria("phone")} />
           {errMsg("phone")}
         </div>
         <div>
-          <label htmlFor="email" className={label}>E-mail</label>
+          <label htmlFor="email" className={label}>E-mail <span className="text-red-600">*</span></label>
           <input id="email" name="email" type="email" inputMode="email" autoComplete="email" className={field} {...aria("email")} />
           {errMsg("email")}
         </div>
@@ -109,7 +109,7 @@ export function ContactForm() {
 
       <div className="grid gap-5 sm:grid-cols-2">
         <div>
-          <label htmlFor="service" className={label}>Type de prestation</label>
+          <label htmlFor="service" className={label}>Type de prestation <span className="text-red-600">*</span></label>
           <select id="service" name="service" defaultValue="" className={field} {...aria("service")}>
             <option value="" disabled>Choisir…</option>
             {services.map((s) => <option key={s}>{s}</option>)}
@@ -117,7 +117,7 @@ export function ContactForm() {
           {errMsg("service")}
         </div>
         <div>
-          <label htmlFor="audience" className={label}>Vous êtes</label>
+          <label htmlFor="audience" className={label}>Vous êtes <span className="text-red-600">*</span></label>
           <select id="audience" name="audience" defaultValue={audiences[0]} className={field}>
             {audiences.map((a) => <option key={a}>{a}</option>)}
           </select>
@@ -130,7 +130,7 @@ export function ContactForm() {
       </div>
 
       <div>
-        <label htmlFor="message" className={label}>Votre besoin</label>
+        <label htmlFor="message" className={label}>Votre besoin <span className="text-red-600">*</span></label>
         <textarea id="message" name="message" rows={5} className={field} placeholder="Décrivez brièvement ce dont vous avez besoin." {...aria("message")} />
         {errMsg("message")}
       </div>
@@ -147,6 +147,7 @@ export function ContactForm() {
             J’accepte que ces informations soient utilisées pour répondre à ma demande. Voir la{" "}
             <a href="/politique-de-confidentialite" className="font-semibold underline underline-offset-4">politique de confidentialité</a>.
           </span>
+          <span className="text-red-600">*</span>
         </label>
         {errMsg("consent")}
       </div>
@@ -160,7 +161,7 @@ export function ContactForm() {
           </p>
         </div>
       )}
-
+      <span className="text-red-600 text-xs">Les champs marqués de * sont obligatoires</span>
       <button
         type="submit"
         disabled={status === "sending"}
@@ -168,6 +169,7 @@ export function ContactForm() {
       >
         {status === "sending" ? (<><Loader2 size={18} className="animate-spin" aria-hidden="true" /> Envoi en cours</>) : "Envoyer ma demande"}
       </button>
+
     </form>
   );
 }

@@ -217,7 +217,13 @@ export function Header() {
                     <Link
                       href={item.href}
                       onClick={close}
-                      className="block py-4 font-display text-[15px] font-semibold text-ink transition-colors hover:text-hot-deep"
+                      className={`block py-4 font-display text-[15px] font-semibold transition-colors hover:text-hot-deep
+                        ${
+                          pathname === item.href
+                            ? "text-hot-deep"
+                            : "text-ink"
+                        }`}
+                      aria-current={pathname === item.href ? "page" : undefined}
                     >
                       {item.label}
                     </Link>
