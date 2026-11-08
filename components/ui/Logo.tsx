@@ -26,7 +26,7 @@ export function Logo({
           ENTREPRISE <span className="text-hot-deep">BARRY</span>
         </span>
         <span className="mt-0.5 font-medium tracking-wide text-muted text-[0.68rem]">
-          Notre expertise, fort
+          Notre expertise, votre confort
         </span>
       </span>
     </span>
