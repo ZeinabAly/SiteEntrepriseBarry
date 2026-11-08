@@ -51,7 +51,7 @@ export function Hero() {
           <p className="hero-rise eyebrow" style={after(0.1)}>
             Disponible à {site.zone}
           </p>
-          <h1 className="mt-7 text-[clamp(2rem,2.2rem+4.4vw,3.9rem)] font-bold leading-[0.98] tracking-[-0.035em]">
+          <h1 className="mt-7 text-[clamp(2rem,2.2rem+1.9vw,3rem)] font-bold leading-[0.98] tracking-[-0.035em]">
             <Words text="Plomberie, chauffage," />{" "}
             <Words text="climatisation" start={3} className="text-thermal text-thermal-anim" />{" "}
             <Words text="et nettoyage à Montpellier" start={4} />

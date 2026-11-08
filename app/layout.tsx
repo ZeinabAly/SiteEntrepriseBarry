@@ -61,12 +61,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <Header />
         <main id="contenu">{children}</main>
         <Footer />
-        <MobileCallBar />
-        <div className="thermo" aria-hidden="true" />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema()) }}
-        />
+        
       </body>
     </html>
   );
