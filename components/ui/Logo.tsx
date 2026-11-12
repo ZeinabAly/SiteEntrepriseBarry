@@ -2,7 +2,7 @@ import Image from "next/image";
 
 type Props = { tone?: "dark" | "light"; compact?: boolean; priority?: boolean };
 
-/** Logo d'Entreprise Barry (flamme et flocon) suivi du nom de l'entreprise. */
+/** Logo d'Entreprise BARRY (flamme et flocon) suivi du nom de l'entreprise. */
 export function Logo({
   tone = "dark",
   compact = false,
@@ -12,7 +12,7 @@ export function Logo({
     <span className="inline-flex items-center gap-3">
       <Image
         src="/brand/logo.png"
-        alt="Logo Entreprise Barry"
+        alt="Logo Entreprise BARRY"
         width={42}
         height={42}
         priority

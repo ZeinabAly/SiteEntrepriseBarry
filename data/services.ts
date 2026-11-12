@@ -28,10 +28,10 @@ export const services: Service[] = [
     name: "Plomberie",
     summary: "Dépannage, réparation et installation, du robinet à la salle de bain complète.",
     heading: "Plombier à Montpellier",
-    lead: "Fuite, engorgement, robinetterie ou salle de bain à refaire : Entreprise Barry dépanne, répare et installe à Montpellier et alentours.",
+    lead: "Fuite, engorgement, robinetterie ou salle de bain à refaire : Entreprise BARRY dépanne, répare et installe à Montpellier et alentours.",
     metaTitle: "Plombier à Montpellier : dépannage, installation, sanitaires",
     metaDescription:
-      "Dépannage plomberie à Montpellier : fuites, débouchage, chauffe-eau, sanitaires, salle de bain et cuisine. Demandez votre devis à Entreprise Barry.",
+      "Dépannage plomberie à Montpellier : fuites, débouchage, chauffe-eau, sanitaires, salle de bain et cuisine. Demandez votre devis à Entreprise BARRY.",
     prestations: [
       { title: "Sanitaire", detail: "lavabo, évier, WC" },
       { title: "Dépannage", detail: "fuites, engorgements" },
@@ -56,7 +56,7 @@ export const services: Service[] = [
     lead: "Chaudière, chauffe-eau, équipements de chauffage : installation, entretien et dépannage à Montpellier et alentours.",
     metaTitle: "Chauffage à Montpellier : installation, entretien, dépannage",
     metaDescription:
-      "Chauffage à Montpellier : installation de chaudières, chauffe-eau, entretien, maintenance et dépannage. Demandez votre devis à Entreprise Barry.",
+      "Chauffage à Montpellier : installation de chaudières, chauffe-eau, entretien, maintenance et dépannage. Demandez votre devis à Entreprise BARRY.",
     prestations: [
       { title: "Chaudières", detail: "installation, toutes marques" },
       { title: "Chauffe-eau et équipements de chauffage", detail: "installation, entretien, dépannage" },
@@ -78,7 +78,7 @@ export const services: Service[] = [
     lead: "Installation, mise en service, entretien et dépannage de climatiseurs split, multisplit et gainables à Montpellier et alentours.",
     metaTitle: "Installation de climatisation à Montpellier : split, multisplit, gainable",
     metaDescription:
-      "Installation de climatisation à Montpellier : split, multisplit, gainable. Entretien, recharge de gaz et dépannage. Demandez votre devis à Entreprise Barry.",
+      "Installation de climatisation à Montpellier : split, multisplit, gainable. Entretien, recharge de gaz et dépannage. Demandez votre devis à Entreprise BARRY.",
     prestations: [
       { title: "Climatiseurs", detail: "installation split, multisplit, gainable" },
       { title: "Entretien et maintenance" },
@@ -100,7 +100,7 @@ export const services: Service[] = [
     lead: "Nettoyage de logements, bureaux, commerces et locaux professionnels, régulier ou ponctuel, et remise en état après travaux.",
     metaTitle: "Nettoyage professionnel à Montpellier : logements, bureaux, commerces",
     metaDescription:
-      "Nettoyage professionnel à Montpellier : logements, bureaux, commerces, copropriétés, fin de chantier et remise en état après travaux. Devis à Entreprise Barry.",
+      "Nettoyage professionnel à Montpellier : logements, bureaux, commerces, copropriétés, fin de chantier et remise en état après travaux. Devis à Entreprise BARRY.",
     prestations: [
       { title: "Nettoyage pour particuliers", detail: "logements" },
       { title: "Nettoyage professionnel", detail: "bureaux, commerces, locaux" },

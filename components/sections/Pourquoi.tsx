@@ -15,7 +15,7 @@ export function Pourquoi() {
       <Container>
         <Reveal>
           <p className="eyebrow">Pourquoi nous</p>
-          <h2 className="title-second mt-4 max-w-2xl font-bold tracking-[-0.03em]">Pourquoi choisir Entreprise Barry ?</h2>
+          <h2 className="title-second mt-4 max-w-2xl font-bold tracking-[-0.03em]">Pourquoi choisir Entreprise BARRY ?</h2>
         </Reveal>
         <ul className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {reasons.map(({ Icon, title, text, cls }, i) => {

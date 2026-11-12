@@ -32,7 +32,7 @@ export function Presentation() {
           <p className="eyebrow">Qui sommes-nous</p>
           <h2 className="title-second mt-4 font-bold tracking-[-0.03em]">Une entreprise au service de votre confort</h2>
           <p className="mt-6 max-w-xl text-[1rem] text-ink-soft">
-            Entreprise Barry intervient à Montpellier et dans ses environs pour la plomberie, le chauffage, la climatisation et le nettoyage. Nous accompagnons les {site.audiences.join(", ")}, du dépannage à l’installation complète.
+            Entreprise BARRY intervient à Montpellier et dans ses environs pour la plomberie, le chauffage, la climatisation et le nettoyage. Nous accompagnons les {site.audiences.join(", ")}, du dépannage à l’installation complète.
           </p>
           <blockquote className="mt-10 rounded-[1.25rem] bg-paper p-7">
             <p className="font-display text-[clamp(1.6rem,1.1rem+1.6vw,2.4rem)] font-bold leading-tight tracking-tight">

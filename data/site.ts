@@ -6,7 +6,7 @@
 export const TODO = "[À compléter]";
 
 export const site = {
-  name: "Entreprise Barry",
+  name: "Entreprise BARRY",
   signature: "Notre expertise, votre confort !",
   description:
     "Plomberie, chauffage, climatisation et nettoyage à Montpellier et alentours, pour les particuliers, les professionnels et les collectivités.",

@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Plombier, chauffage, climatisation et nettoyage à Montpellier",
   description:
-    "Entreprise Barry : dépannage plomberie, chauffage, installation de climatisation et nettoyage professionnel à Montpellier et alentours. Devis gratuit.",
+    "Entreprise BARRY : dépannage plomberie, chauffage, installation de climatisation et nettoyage professionnel à Montpellier et alentours. Devis gratuit.",
   path: "/",
 });
 

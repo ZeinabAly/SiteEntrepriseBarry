@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = {
   ...pageMetadata({
     title: "Mentions légales",
-    description: "Mentions légales du site d'Entreprise Barry.",
+    description: "Mentions légales du site d'Entreprise BARRY.",
     path: "/mentions-legales",
   }),
   robots: { index: false, follow: true },
@@ -21,7 +21,7 @@ export default function MentionsLegalesPage() {
         <h1 className="big-title">Mentions légales</h1>
         <div className="prose-legal mt-6">
           <p>
-            Les présentes mentions légales précisent les informations relatives à l'éditeur du site Entreprise Barry, conformément à la réglementation en vigueur.
+            Les présentes mentions légales précisent les informations relatives à l'éditeur du site Entreprise BARRY, conformément à la réglementation en vigueur.
 
 Les informations concernant l'entreprise sont présentées dans les différentes rubriques ci-dessous.
           </p>

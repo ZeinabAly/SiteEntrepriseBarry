@@ -119,7 +119,7 @@ export function Header() {
         {/* Logo */}
         <Link
           href="/"
-          aria-label="Entreprise Barry, retour à l'accueil"
+          aria-label="Entreprise BARRY, retour à l'accueil"
           className="shrink-0"
           onClick={close}
         >

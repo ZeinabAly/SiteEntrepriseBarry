@@ -1,4 +1,4 @@
-# Site vitrine d'Entreprise Barry
+# Site vitrine d'Entreprise BARRY
 
 Plomberie, chauffage, climatisation et nettoyage à Montpellier et alentours.
 Next.js (App Router), React, TypeScript strict, Tailwind CSS, Lucide React. Le site est entièrement statique : pas de base de données, pas d'authentification, pas d'API.

@@ -11,7 +11,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Contact et demande de devis à Montpellier",
   description:
-    "Contactez Entreprise Barry par téléphone, WhatsApp, e-mail ou formulaire pour un devis gratuit en plomberie, chauffage, climatisation ou nettoyage à Montpellier.",
+    "Contactez Entreprise BARRY par téléphone, WhatsApp, e-mail ou formulaire pour un devis gratuit en plomberie, chauffage, climatisation ou nettoyage à Montpellier.",
   path: "/contact",
 });
 

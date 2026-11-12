@@ -10,7 +10,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = pageMetadata({
   title: "Réalisations : plomberie, chauffage, climatisation à Montpellier",
   description:
-    "Photos de chantiers et d'équipements d'Entreprise Barry à Montpellier et alentours : plomberie, chauffage et climatisation.",
+    "Photos de chantiers et d'équipements d'Entreprise BARRY à Montpellier et alentours : plomberie, chauffage et climatisation.",
   path: "/realisations",
 });
 

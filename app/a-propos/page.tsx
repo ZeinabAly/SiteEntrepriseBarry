@@ -11,9 +11,9 @@ import { site } from "@/data/site";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "À propos d'Entreprise Barry",
+  title: "À propos d'Entreprise BARRY",
   description:
-    "Entreprise Barry intervient à Montpellier et alentours en plomberie, chauffage, climatisation et nettoyage, pour les particuliers, les professionnels et les collectivités.",
+    "Entreprise BARRY intervient à Montpellier et alentours en plomberie, chauffage, climatisation et nettoyage, pour les particuliers, les professionnels et les collectivités.",
   path: "/a-propos",
 });
 
@@ -35,10 +35,10 @@ export default function AboutPage() {
           <div>
             <PipePair draw className="mb-9" />
             <h1 className="big-title">
-              <Words text="À propos d’Entreprise Barry" />
+              <Words text="À propos d’Entreprise BARRY" />
             </h1>
             <p className="hero-rise mt-6 max-w-xl text-lg text-ink-soft" style={after(0.9)}>
-              Entreprise Barry est une entreprise de services qui intervient à {site.zone} pour la plomberie, le chauffage, la climatisation et le nettoyage.
+              Entreprise BARRY est une entreprise de services qui intervient à {site.zone} pour la plomberie, le chauffage, la climatisation et le nettoyage.
             </p>
             <p className="hero-rise mt-4 max-w-xl text-ink-soft" style={after(1.1)}>
               Nous travaillons pour les {site.audiences.join(", ")}, du dépannage à l’installation complète, avec un seul interlocuteur pour tous ces besoins.

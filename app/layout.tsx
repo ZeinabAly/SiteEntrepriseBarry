@@ -23,8 +23,8 @@ const hanken = localFont({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Entreprise Barry : plomberie, chauffage, climatisation et nettoyage à Montpellier",
-    template: "%s | Entreprise Barry",
+    default: "Entreprise BARRY : plomberie, chauffage, climatisation et nettoyage à Montpellier",
+    template: "%s | Entreprise BARRY",
   },
   description: site.description,
   applicationName: site.name,
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     siteName: site.name,
-    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Entreprise Barry, plomberie, chauffage, climatisation et nettoyage" }],
+    images: [{ url: "/og.png", width: 1200, height: 630, alt: "Entreprise BARRY, plomberie, chauffage, climatisation et nettoyage" }],
   },
   twitter: { card: "summary_large_image" },
 };

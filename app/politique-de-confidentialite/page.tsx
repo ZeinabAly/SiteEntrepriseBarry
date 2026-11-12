@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata = {
   ...pageMetadata({
     title: "Politique de confidentialité (RGPD)",
-    description: "Comment Entreprise Barry traite les données personnelles collectées sur son site.",
+    description: "Comment Entreprise BARRY traite les données personnelles collectées sur son site.",
     path: "/politique-de-confidentialite",
   }),
   robots: { index: false, follow: true },
@@ -48,9 +48,9 @@ export default function PrivacyPage() {
 
           <h2>Qui reçoit ces données</h2>
           <p>
-            Les données collectées par le formulaire sont transmises à Entreprise Barry par l'intermédiaire du service Formspree, qui assure la réception et l'acheminement des formulaires. Selon la configuration du service, une notification est envoyée à l'adresse e-mail de l'entreprise.
+            Les données collectées par le formulaire sont transmises à Entreprise BARRY par l'intermédiaire du service Formspree, qui assure la réception et l'acheminement des formulaires. Selon la configuration du service, une notification est envoyée à l'adresse e-mail de l'entreprise.
 
-            <br /> <br />Entreprise Barry est responsable du traitement de vos données personnelles. Formspree intervient en qualité de sous-traitant technique.
+            <br /> <br />Entreprise BARRY est responsable du traitement de vos données personnelles. Formspree intervient en qualité de sous-traitant technique.
           </p>
 
           <h2>Durée de conservation</h2>
